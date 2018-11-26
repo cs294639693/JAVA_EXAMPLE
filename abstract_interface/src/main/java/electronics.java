@@ -1,2 +1,2 @@
-public class electronics {
+public abstract  class electronics extends commodity {
 }

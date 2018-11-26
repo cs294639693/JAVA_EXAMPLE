@@ -4,8 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/abstract_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/thread_example/pom.xml" />
+        <option value="$PROJECT_DIR$/stormdemo/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="csq_1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="csq_1.8" project-jdk-type="JavaSDK" />
 </project>
