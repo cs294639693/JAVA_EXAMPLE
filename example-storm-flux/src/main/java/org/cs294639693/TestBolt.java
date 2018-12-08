@@ -36,7 +36,7 @@ import java.util.Map;
     */
         @Override
         public void prepare(Map map, TopologyContext arg1, OutputCollector collector) {
-            System.out.println("prepare:"+map.get("test"));
+            System.out.println("TestBolt_prepare:"+map.get("test"));
             this.collector=collector;
         }
       

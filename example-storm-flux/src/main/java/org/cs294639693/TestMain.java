@@ -25,7 +25,7 @@ public class TestMain {
         //设置一个Executeor(线程)，和一个task
         builder.setBolt(test2_bolt, new Test2Bolt(), 1).setNumTasks(1).fieldsGrouping(test_bolt, new Fields("count"));
         Config conf = new Config();
-        conf.put("test", "test");
+        conf.put("test", "test66666");
         try {
             //运行拓扑
             if (args != null && args.length > 0) { //有参数时，表示向集群提交作业，并把第一个参数当做topology名称

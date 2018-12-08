@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Test {
@@ -31,8 +32,11 @@ public class Test {
         }
 
         public static void main(String[] args) {
-            test1();
-            test2();
+            HashMap csqHashMap = new HashMap();
+            List<HashMap>list = new ArrayList<HashMap>();
+            csqHashMap.put("UserID", "001");
+            csqHashMap.put("UserName", "csq");
+            list.add(csqHashMap);
         }
 
     }

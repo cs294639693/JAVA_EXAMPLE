@@ -10,18 +10,18 @@
         <module name="abstract_interface" />
         <module name="example-storm-flux" />
         <module name="javaexec" />
-        <module name="storm-demo (1)" />
-        <module name="storm-demo (2)" />
+        <module name="storm-demo" />
         <module name="thread_example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="abstract_interface" target="8" />
-      <module name="example-storm-flux" target="8" />
-      <module name="javaexec" target="8" />
-      <module name="storm-demo (1)" target="8" />
+      <module name="abstract_interface" target="1.5" />
+      <module name="example-storm-flux" target="1.5" />
+      <module name="javaexec" target="1.5" />
+      <module name="storm-demo" target="1.5" />
+      <module name="storm-demo (1)" target="1.5" />
       <module name="storm-demo (2)" target="8" />
-      <module name="thread_example" target="8" />
+      <module name="thread_example" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

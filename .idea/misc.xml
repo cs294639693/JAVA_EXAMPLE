@@ -9,7 +9,6 @@
         <option value="$PROJECT_DIR$/javaexec/pom.xml" />
         <option value="$PROJECT_DIR$/example-storm-flux/pom.xml" />
         <option value="$PROJECT_DIR$/storm-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/storm-demo/dependency-reduced-pom.xml" />
       </list>
     </option>
   </component>

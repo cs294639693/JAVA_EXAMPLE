@@ -12,8 +12,11 @@ public class TestMain {
         TopologyBuilder builder = new TopologyBuilder();
         //设置一个Executeor(线程)，默认一个
         builder.setSpout("KfakaSpout_ID", new KfakaSpout(), 1);
+        //shuffleGrouping:表示是随机分组
+        //设置一个Executeor(线程)，和一个task
+        builder.setBolt("KafkaBolt", new KafkaBolt(), 1).setNumTasks(1).shuffleGrouping("KfakaSpout_ID");
         Config conf = new Config();
-        conf.put("test", "");
+        conf.put("test", "test99999999");
         try {
 
             //运行拓扑
